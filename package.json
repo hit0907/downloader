@@ -1,0 +1,38 @@
+{
+    "name": "phonegap-plugin-downloader",
+    "description": "download file",
+    "version": "1.0.0",
+    "homepage": "https://github.com/thienlinh/downloader/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thienlinh/downloader.git"
+    },
+    "bugs": {
+        "url": "https://github.com/thienlinh/downloader/issues"
+    },
+    "cordova": {
+        "id": "phonegap-plugin-downloader",
+        "platforms": [
+            "android"
+        ]
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "ecosystem:phonegap",
+        "cordova-android"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ],
+    "author": "iNet team mobile",
+    "license": "MIT",
+    "scripts": {
+        "test": "jasmine-node --color spec"
+    },
+    "devDependencies": {
+        "jasmine-node": "1.14.5"
+    }
+}
