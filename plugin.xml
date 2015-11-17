@@ -24,4 +24,5 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 		</config-file>
 
 	</platform>
+	<source-file src="src/android/Downloader.java" target-dir="src/com/inet/plugins"/>
 </plugin>
