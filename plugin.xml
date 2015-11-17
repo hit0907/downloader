@@ -11,7 +11,7 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 	</description>
 
 	<js-module src="www/downloader.js" name="Downloader">
-        	<clobbers target="Downloader" />
+        	<!--<clobbers target="Downloader" />-->
 	</js-module>
 
 	<!-- android -->
