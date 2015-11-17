@@ -10,8 +10,8 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 		This plugin allows your application to download a file on Android devices.
 	</description>
 
-	<js-module src="www/downloader.js" name="Download">
-        	<clobbers target="Download" />
+	<js-module src="www/downloader.js" name="Downloader">
+        	<clobbers target="Downloader" />
 	</js-module>
 
 	<!-- android -->
