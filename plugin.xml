@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-plugin-ms-azure-mobile-engagement" 
+version="2.2.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <name>Downloader</name>
+	<author>Thien Linh</author>
+
+	<description>
+		This plugin allows your application to download a file on Android devices.
+	</description>
+
+	<js-module src="www/downloader.js" name="Downloader">
+        <clobbers target="Downloader" />
+	</js-module>
+
+	<!-- android -->
+	<platform name="android">
+
+		<config-file target="res/xml/config.xml" parent="/*">
+			<feature name="Downloader">
+				<param name="android-package" value="com.inet.plugins.Downloader"/>
+			</feature>
+		</config-file>
+
+	</platform>
+</plugin>
