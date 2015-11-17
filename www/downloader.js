@@ -7,7 +7,7 @@ window.Downloader = function(url){
 	            function(){
 	            	
 	            }, // error callback function
-	            'Downloader', // mapped to our native Java class called "CalendarPlugin"
+	            'Downloader', // mapped to our native Java class called "Downloader"
 	            'download', // with this action name
 	            [url]
 	        ); 
