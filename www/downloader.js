@@ -1,4 +1,4 @@
-window.Download = function(url){
+window.Downloader = function(url){
 
 	cordova.exec(
 	            function(){
