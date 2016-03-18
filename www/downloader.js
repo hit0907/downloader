@@ -1,15 +1,15 @@
-window.Downloader = function(url){
+window.Downloader = function(opt, success, error){
 
 	cordova.exec(
-	            function(){
-	            	console.log('complete');
+	            function(e){
+	            	success && success(e);
 	            }, // success callback function
-	            function(){
-	            	
+	            function(e){
+	            	error && error(e);
 	            }, // error callback function
 	            'Downloader', // mapped to our native Java class called "Downloader"
 	            'download', // with this action name
-	            [url]
+	            [opt]
 	        ); 
 	
 }
